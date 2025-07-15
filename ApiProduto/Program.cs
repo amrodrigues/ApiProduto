@@ -24,7 +24,7 @@ builder
 //    .AddEntityFrameworkStores<ApiContext>()
 //    .AddDefaultTokenProviders();
 
-
+ 
 
 var app = builder.Build();
 
@@ -32,7 +32,7 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
-    app.UseCors("Development");
+    app.UseCors("Production");
 }
 else
 {

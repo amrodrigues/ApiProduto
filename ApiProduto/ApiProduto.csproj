@@ -22,4 +22,12 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Users\anna.rodrigues\ApiProduto\ApiProduto\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\anna.rodrigues\ApiProduto\ApiProduto\.editorconfig" />
+  </ItemGroup>
+
 </Project>
